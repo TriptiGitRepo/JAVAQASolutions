@@ -4,6 +4,11 @@ import java.util.List;
 public class QAJavaCodeVault {
 
 	public static void main(String[] args) {
+		SplitStringWithDelimiter();
+		
+}
+	
+	private static void SplitStringWithDelimiter() {
 		// Example input string with delimiter '|'
         String keywords = "login|signup|search|logout|profile";
 
@@ -15,6 +20,7 @@ public class QAJavaCodeVault {
 
         // Perform actions based on each keyword
         for (String keyword : keywordList) {
+        	System.out.println("Keyword is "+ keyword.toLowerCase());
             switch (keyword.toLowerCase()) {
                 case "login":
                     performLoginTest();
@@ -36,9 +42,9 @@ public class QAJavaCodeVault {
             }
 
 	}
+		
+	}
 
-}
-	
 	// Simulated test actions for each keyword
     private static void performLoginTest() {
         System.out.println("Executing login functionality test...");
