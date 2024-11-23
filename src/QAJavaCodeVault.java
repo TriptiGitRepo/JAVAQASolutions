@@ -4,7 +4,10 @@ import java.util.List;
 public class QAJavaCodeVault {
 
 	public static void main(String[] args) {
-		SplitStringWithDelimiter();
+		CompareStrings objCS = new CompareStrings();
+		objCS.StringCompareUsingEqualsfunction();
+		
+//		SplitStringWithDelimiter();
 		
 }
 	
