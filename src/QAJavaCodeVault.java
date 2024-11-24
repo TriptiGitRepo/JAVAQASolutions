@@ -4,13 +4,17 @@ import java.util.List;
 public class QAJavaCodeVault {
 
 	public static void main(String[] args) {
+		//Creating object of a class to call a function in another class
 		CompareStrings objCS = new CompareStrings();
+		
+//		objCS.StringCompareWithAtChar();
+		//Using Object to call a function
 		objCS.StringCompareUsingEqualsfunction();
 		
 //		SplitStringWithDelimiter();
 		
 }
-	
+	//This function is defined in the same class as the main function
 	private static void SplitStringWithDelimiter() {
 		// Example input string with delimiter '|'
         String keywords = "login|signup|search|logout|profile";
